@@ -1,5 +1,9 @@
+// jQueryGet.js
+
+console.log('jQueryGet loaded');
+
 $(function() {
-  // const site = 'https://api.github.com/users/pkbanks';
+  const site = 'https://api.github.com/users/pkbanks';
   // const site = 'https://twitter.com/';
   ajaxCall(site);
 })
